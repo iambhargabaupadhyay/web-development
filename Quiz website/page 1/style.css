@@ -1,0 +1,45 @@
+body
+{
+	background: url('b.jpg');
+	background-size: cover;
+	font-family: arial;
+	color: white;
+}
+
+h1 {
+  
+  font-size: 50px;
+  background: -webkit-linear-gradient(#00FF00, #00FFFF,#FF00FF,#FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box h1
+{
+
+	font-size: 30px;
+  background: -webkit-linear-gradient(#00FF00, #00ff00,#ffff00,#FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box select
+{
+	background: #0563af;
+	color: #fff;
+	padding: 10px;
+	width: 250px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	-webkit-appearance:button;
+	outline: none;
+
+}

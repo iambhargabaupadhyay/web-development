@@ -1,0 +1,63 @@
+body
+{
+	background: url('b.jpg');
+	background-size: cover;
+	font-family: arial;
+	color: white;
+}
+h1 {
+  
+  font-size: 72px;
+  background: -webkit-linear-gradient(#00FF00, #00FFFF,#FF00FF,#FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 5vw;
+  margin: 0 auto;
+  min-height: 59vh;
+  }
+
+  .btn {
+  flex: 1 1 auto;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  font-size: 25px;
+ }
+
+ .btn:hover {
+  background-position: right center; 
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+a
+{
+	 text-decoration: none;
+  color: white;
+  display: block;
+}
+
+p
+{
+	font-size: 50px;
+	text-align: right;
+  background: -webkit-linear-gradient(#00FF00, #00ff00,#ffff00,#FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

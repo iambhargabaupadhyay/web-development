@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>B C O D E</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body><center>
+	<h1>Welcome To " B C O D E "</font></h1>
+	<br>
+	<br>
+	<br>
+	
+	<br>
+	<br>
+	<div class="box">
+		<h1>Select Your topic</h1>
+
+		<select topic>
+			<option>Select</option>
+			<option value="html/index.html">Html</option>
+			<option value="css/index.html">Css</option>
+			<option value="JavaScript/index.html" >java Script</option>
+		</select>
+		
+	</div>
+	
+  
+</center>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded',function() {
+        document.querySelector('select[topic]').onchange=changeEventHandler;
+    },false);
+
+    function changeEventHandler(event) {
+        window.location.href = this.options[this.selectedIndex].value;
+    }
+</script>
+
+
+</body>
+</html>
