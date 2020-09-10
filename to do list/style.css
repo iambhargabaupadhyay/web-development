@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: #05acff;
+  min-height: 100vh;
+}
+.h{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 20px;
+	color: white;
+	font-family: "montserrat",sans-serif;
+	font-size: 40px;
+
+}
+
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #f2f6f7;
+}
+
+.txtb{
+  width: 100%;
+  border: none;
+  color: white;
+  border-bottom: 2px solid #dfe6e3;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+input::placeholder
+{
+	color:#ebf2ef;
+}
+
+h3{
+  margin: 10px 0;
+}
+
+.task{
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+}
